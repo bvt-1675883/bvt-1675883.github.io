@@ -1,0 +1,72 @@
+.marker {
+  font-family: "Permanent Marker";
+}
+
+.roman {
+  font-family: "Times New Roman";
+}
+
+.resized > img {
+  height: 50px;
+  width: 50px;
+}
+
+.animation {
+  animation-name: animation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes animation {
+  0% {
+    transform: scale(0.3);
+    background-color: lightgreen;
+    border-radius: 100%;
+  }
+
+  50% {
+    background-color: gold;
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: purple;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: cyan;
+  }
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.container > img {
+  margin: 20px;
+  width: 25rem;
+  height: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: dotted;
+}
+
+.float {
+  float: right;
+  border: cornflowerblue solid;
+  border-radius: 10rem;
+  padding: 4rem;
+}
