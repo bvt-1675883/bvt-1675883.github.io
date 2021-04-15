@@ -1,0 +1,76 @@
+/*
+Brandon Ta
+INFO 101
+Workshop 3
+ */
+
+body {
+  background-image: URL("moroccan-flower-dark.png");
+  background-color: gold;
+  background-blend-mode: luminosity;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+p {
+  font-family: Arial;
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Passion One";
+  font-size: 40px;
+  color: #ffbc00;
+  margin-bottom: 0px;
+}
+
+div {
+  background-color: #8e41d5;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.container {
+  border: solid 8px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: 6px 6px 2px violet;
+}
+
+#Header {
+  width: 500px;
+  transform: rotate(180deg);
+}
+
+#Header > h1:hover {
+  transform: rotateY(-60deg);
+}
+
+#Header h1 {
+  font-size: 60px;
+  font-family: "Passion One";
+  color: #ffbc00;
+  font-weight: bold;
+}
+
+#LeftNav {
+  width: 400px;
+  float: left;
+  padding-bottom: 8px;
+}
+
+#Content {
+  width: 700px;
+  padding-bottom: 15px;
+}
